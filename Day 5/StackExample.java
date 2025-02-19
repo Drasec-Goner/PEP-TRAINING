@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Stack
+public class StackExample
 {
     Stack<String> stackOBJ = new Stack<String>();
 
@@ -25,6 +25,6 @@ public class Stack
     }
 
     public static void main(String[] args) {
-        new Stack().stackDemo();
+        new StackExample().stackDemo();
     }
 }

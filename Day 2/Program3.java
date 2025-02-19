@@ -13,8 +13,8 @@ public class Program3 {
     }
 
     public static void main(String[] args) {
-        Program3 p1 = new Program3();
-        Program3 p2 = new Program3();
+        program3 p1 = new program3();
+        program3 p2 = new program3();
         p1.increment();
 
         p2.display();

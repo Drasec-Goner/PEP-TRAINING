@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Vector {
+public class VectorExample {
     Vector<String> vecOBJ = new Vector<String>();
 
     void vectorDemo()
@@ -19,6 +19,6 @@ public class Vector {
     }
 
     public static void main(String[] args) {
-        new Vector().vectorDemo();
+        new VectorExample().vectorDemo();
     }
 }

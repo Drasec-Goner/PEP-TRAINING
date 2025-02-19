@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class LinkedList {
+public class LinkedListExample {
     public static void main(String[] args) {
         //LinkedList is a subset of List interface
         //This time we will expereince Generic collection

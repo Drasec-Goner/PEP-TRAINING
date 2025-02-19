@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Rediffmail Account</title>
+    <style>
+        .logo {
+            color: #bd3232;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="home.html">Home</a>
+            <h1>rediff.<span class="logo">com</span></h1>
+        </div>
+    </header>
+    <div class="form-container">
+        <h1>Create a Rediffmail Account</h1>
+        <form>
+            <table>
+            <tr>
+                <td><label for="fullName">Full Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="fullName" placeholder="Enter your full name"></td>
+            </tr>
+            <tr>
+                <td><label for="rediffID">Choose a Rediffmail ID</label></td>
+                <td>:</td>
+                <td>
+                <div class="email-field">
+                    <input type="text" id="rediffID" placeholder="Your Rediffmail ID">
+                    <span>@rediffmail.com</span>
+                </div>
+                </td>
+            </tr>
+            <td><button type="button">Check availability</button></td>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td><label for="retypePassword">Retype Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="retypePassword" placeholder="Retype your password"></td>
+            </tr>
+            <tr>
+                <td><label for="altEmail">Alternate Email Address</label></td>
+                <td>:</td>
+                <td><input type="email" id="altEmail" placeholder="Alternate email address"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="noAltEmail">
+                    <label for="noAltEmail">Click if you don't have an alternate ID</label>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile No.</label></td>
+                <td>:</td>
+                <td><input type="tel" id="mobile" placeholder="+91"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td>:</td>
+                <td>
+                <div class="dob-field">
+                    <select>
+                    <option>Day</option>
+                    </select>
+                    <select>
+                    <option>Month</option>
+                    </select>
+                    <select>
+                    <option>Year</option>
+                    </select>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>:</td>
+                <td>
+                <div class="radio-group">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td><p for="Region">I live in</p></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>:</td>
+                <td><select id="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td>:</td>
+                <td><select id="city">
+                <option>Select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="captcha">Enter the text shown below:</label></td>
+                <td><input type="text" id="captcha"></td>
+                <td><img src="captcha.img"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Create My Account</button></td>
+            </tr>
+            </table>
+        </form>
+        </form>
+        <div class="footer-text">
+            By creating an account, you agree to our Terms & Conditions.
+        </div>
+    </div>
+</body>
+</html>
